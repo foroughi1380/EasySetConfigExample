@@ -21,10 +21,12 @@
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
+        "files": ["packages/Gopex/EasySetConfig/src/utils/config/configFunctions.php"],
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Gopex\\EasySetConfig\\": "packages/Gopex/EasySetConfig/src/"
         }
     },
     "autoload-dev": {
